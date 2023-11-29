@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaArrowDown, FaGithub } from "react-icons/fa";
 import Henok from "../assets/henok.png";
+import "/Henok-resume.pdf";
 const Home = () => {
   const socials = [
     {
@@ -61,7 +62,7 @@ const Home = () => {
           />
           <a
             href="/Henok-resume.pdf"
-            download={true}
+            // download={true}
             // className="flex items-center justify-center mt-10 bg-teal-600 text-white py-2 rounded-lg"
             className="flex items-center justify-center mt-10 px-40 py-3 bg-teal-600 text-white rounded-lg uppercase tracking-wider cursor-pointer hover:scale-105 duration-200"
           >
