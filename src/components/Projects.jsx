@@ -4,6 +4,7 @@ import { FaGithub, FaExternalLinkSquareAlt } from "react-icons/fa";
 import project1 from "../assets/project-1.png";
 import project2 from "../assets/project-2.png";
 import project3 from "../assets/project-3.png";
+import project4 from "../assets/project-4.png";
 
 const Projects = () => {
   const projects = [
@@ -21,17 +22,7 @@ const Projects = () => {
       github: "https://github.com/htsegaww/TechStore-e-commerce",
       demo: "https://techstorets.netlify.app/",
     },
-    {
-      id: 3,
-      image: project2,
-      title: "Todo-List app",
-      tech1: "React",
-      tech2: "CSS",
-      description:
-        "A simple todo List app where users can add todo lists. This app allows users to do CRUD (create , read, Update and Delete). Users can also filter depend on the Status. This app introduces the concept of React File structure, React State Management using REDUX",
-      github: "https://github.com/htsegaww/Todo-App",
-      demo: "https://to-do-react-redux-app.netlify.app/",
-    },
+
     {
       id: 2,
       image: project3,
@@ -44,6 +35,29 @@ const Projects = () => {
       tech3: "Firebase",
       github: "https://github.com/htsegaww/HenoGram",
       demo: "https://henogram.netlify.app/",
+    },
+    {
+      id: 3,
+      image: project4,
+      title: "MERN AUTO SHOP",
+      tech1: "React",
+      tech2: "NODE EXPRESS",
+      tech3: "MONGO DB",
+      description:
+        "This web app is a scheduler app where users can go and create account to get their car fixed. The purpose of this app is to help users as well as the business owner because business owners can easily manage the customers easily with this app.",
+      github: "https://github.com/htsegaww/Todo-App",
+      demo: "https://to-do-react-redux-app.netlify.app/",
+    },
+    {
+      id: 4,
+      image: project2,
+      title: "Todo-List app",
+      tech1: "React",
+      tech2: "CSS",
+      description:
+        "A simple todo List app where users can add todo lists. This app allows users to do CRUD (create , read, Update and Delete). Users can also filter depend on the Status. This app introduces the concept of React File structure, React State Management using REDUX",
+      github: "https://github.com/htsegaww/Todo-App",
+      demo: "https://to-do-react-redux-app.netlify.app/",
     },
   ];
   return (
