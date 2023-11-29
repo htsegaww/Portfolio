@@ -45,8 +45,8 @@ const Projects = () => {
       tech3: "MONGO DB",
       description:
         "This web app is a scheduler app where users can go and create account to get their car fixed. The purpose of this app is to help users as well as the business owner because business owners can easily manage the customers easily with this app.",
-      github: "https://github.com/htsegaww/Todo-App",
-      demo: "https://to-do-react-redux-app.netlify.app/",
+      github: "https://github.com/htsegaww/AutoShop-MERN",
+      demo: "https://sleepy-depths-06967.herokuapp.com/login",
     },
     {
       id: 4,
